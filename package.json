@@ -1,0 +1,26 @@
+{
+  "name": "theplrdrop-scraper",
+  "version": "1.0.0",
+  "description": "Product scraper for theplrdrop.me store",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "scrape": "node scraper.js",
+    "install-deps": "npm install axios cheerio",
+    "install-full": "PUPPETEER_SKIP_DOWNLOAD=true npm install && npm install puppeteer"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^20.5.0"
+  },
+  "keywords": [
+    "scraper",
+    "products",
+    "theplrdrop"
+  ],
+  "author": "Product Extractor",
+  "license": "MIT"
+}
